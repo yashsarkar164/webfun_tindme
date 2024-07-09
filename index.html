@@ -9,9 +9,10 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <style>
     .gradient-background {
-      background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+      /* background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
       background-size: 180% 180%;
-      animation: gradient-animation 18s ease infinite;
+      animation: gradient-animation 18s ease infinite; */
+      background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
     }
 
     @keyframes gradient-animation {
@@ -44,11 +45,12 @@
 <body>
 
   <!-- Title -->
-  <section id="title" class="gradient-background">
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+  <section id="title" class="gradient-background"  data-bs-theme="dark">
+    <div class="container col-xxl-8 px-4 pt-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="realyash.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" height="200" loading="lazy" >
+          <img src="realyash.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" height="200"
+            loading="lazy">
         </div>
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hey! <br> HOT girls meet ME <br> Call me Yash</h1>
@@ -70,9 +72,9 @@
       </div>
     </div>
   </section>
-  
+
   <!-- Features -->
-  <section id="features">
+  <section id="features" class="mt-5">
     <div class="container px-4 py-5" id="hanging-icons">
       <h2 class="pb-2 border-bottom">FEATURES I CARRY:</h2>
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
@@ -134,7 +136,7 @@
       </p>
       <div class="row">
         <div class="col-lg-3 col-sm-12"><img src="bizinsider.png" alt="busy" height="60"></div>
-        <div class="col-lg-3 col-sm-12"><img src="gym.png" style="margin-left: 10vh;" alt="gym" height="120"></div>
+        <div class="col-lg-3 col-sm-12"><img src="gym.png" alt="gym" height="120"></div>
         <div class="col-lg-3 col-sm-12"><img src="Elden-Ring-Logo-PNG-Image.png" alt="gamer" height="60"></div>
         <div class="col-lg-3 col-sm-12"><img src="coder1.png" alt="coder" height="80"></div>
       </div>
@@ -166,7 +168,7 @@
                   <li>Technical support</li>
                   <li>Help center access</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign up for free</button>
               </div>
             </div>
           </div>
@@ -180,17 +182,17 @@
                 </h1>
                 <ul class="list-unstyled mt-3 mb-4">
                   <li>5 hours tharapy session</li>
-                  <li>1 hour tharki session</li>
+                  <li>1 hour naughty session</li>
                   <li>Emotional + Hand Support</li>
                   <li>Help center access</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                <button type="button" class="w-100 btn btn-lg btn-dark">Get started</button>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm border-primary">
-              <div class="card-header py-3 text-bg-primary border-primary">
+            <div class="card mb-4 rounded-3 shadow-sm border-dark">
+              <div class="card-header py-3 text-bg-dark border-dark">
                 <h4 class="my-0 fw-normal">Enterprise</h4>
               </div>
               <div class="card-body">
@@ -198,11 +200,11 @@
                 </h1>
                 <ul class="list-unstyled mt-3 mb-4">
                   <li>7 hours therapy session</li>
-                  <li>3 hours tharki session</li>
+                  <li>3 hours naughty session</li>
                   <li>Emotional + Physical support</li>
                   <li>Home center access</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                <button type="button" class="w-100 btn btn-lg btn-dark">Contact us</button>
               </div>
             </div>
           </div>
@@ -213,21 +215,26 @@
       </main>
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="dog.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          <img src="dog.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500"
+            loading="lazy">
         </div>
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">For Fun website</h1>
-          <p class="lead">Kisi se kehna mat 
-            only for fun website <br>Boreeeeeeeed up guys .... Pretty awsome right... Listening Billie eilish ... If you want to visit the real website created my me check out below</p>
+          <p class="lead">Kisi se kehna mat
+            only for fun website <br>Boreeeeeeeed up guys .... Pretty awsome right... Listening Billie eilish ... If you
+            want to visit the real website created my me check out below</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2"><a href="https://appbrewery.github.io/tindog/" style="color: white; text-decoration: none;">RealOne</a></button>
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2"><a
+                href="https://appbrewery.github.io/tindog/"
+                style="color: white; text-decoration: none;">RealOne</a></button>
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
           </div>
         </div>
       </div>
+  </section>
 
   <!-- Footer -->
-  <section id="contact" class="gradient-background">
+  <section id="contact" class="gradient-background"  data-bs-theme="dark">
     <div class="container ">
       <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 border-top">
         <div class="col mb-3">
@@ -238,9 +245,8 @@
         <div class="col mb-3">
 
         </div>
-
         <div class="col mb-3">
-          <h5>Section</h5>
+          <h5 class="text-bg-secondary">Section</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
@@ -251,7 +257,7 @@
         </div>
 
         <div class="col mb-3">
-          <h5>Section</h5>
+          <h5 class="text-bg-secondary">Section</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
@@ -262,7 +268,7 @@
         </div>
 
         <div class="col mb-3">
-          <h5>Section</h5>
+          <h5 class="text-bg-secondary">Section</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
@@ -274,6 +280,9 @@
       </footer>
     </div>
   </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
